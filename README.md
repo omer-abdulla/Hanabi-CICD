@@ -193,6 +193,8 @@
          eb deploy Hanabi-demo-env 
 
       Final Output
+
+      ![Environment overview - events _ Elastic Beanstalk _ us-east-1 - Google Chrome 11-01-2024 16_56_35](https://github.com/omer-abdulla/Hanabi-CICD/assets/98330268/a389c8af-526c-4907-bf1d-f343f5b5e4c1)
       
           
           
