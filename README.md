@@ -41,7 +41,8 @@ ARCHITECTURE DIAGRAM
 
            3. Make the flask application run locally using python app.py. Tested the root  from the browser and got the expected response
 
-           ![requirement txt - PythonProgramming - Visual Studio Code  Administrator  11-01-2024 16_26_22](https://github.com/omer-abdulla/Hanabi-CICD/assets/98330268/ab72d39e-9fc9-4228-a1e2-9e172d1f9d9a)
+          ![requirement txt - PythonProgramming - Visual Studio Code  Administrator  11-01-2024 16_26_22](https://github.com/omer-abdulla/Hanabi- 
+           CICD/assets/98330268/bf08e603-fe56-4700-bc29-d9c55797efc3)
 
 
 
