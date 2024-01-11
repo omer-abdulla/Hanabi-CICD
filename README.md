@@ -41,11 +41,10 @@ ARCHITECTURE DIAGRAM
 
            3. Make the flask application run locally using python app.py. Tested the root  from the browser and got the expected response
 
-          
            ![requirement txt - PythonProgramming - Visual Studio Code  Administrator  11-01-2024 16_26_22](https://github.com/omer-abdulla/Hanabi- 
-            CICD/assets/98330268/b3a84251-1eb2-4f50-ae2b-24081b0415d0)
-
-
+            CICD/assets/98330268/b2203135-6ec7-4662-99c7-a6582b2b94ce)
+     
+           
            4. Dockerization: Dockerize the Python application
 
            
