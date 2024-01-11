@@ -1,4 +1,4 @@
-ARCHITECTURE DIAGRAM 
+1 .ARCHITECTURE DIAGRAM 
 
           +------------------+
           |                  |
@@ -191,6 +191,13 @@ ARCHITECTURE DIAGRAM
        run: |
          eb init -r us-east-1 -p docker Hanabi-demo
          eb deploy Hanabi-demo-env 
+
+      Final Output
+      
+          
+          
+          
+          
 
 
 
