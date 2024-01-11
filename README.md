@@ -170,28 +170,6 @@
         runs-on: ubuntu-latest
         needs: push
 
-     env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-         AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-         steps:
-         - uses: actions/checkout@v2
-        - name: Install Python 3.9
-         uses: actions/setup-python@v2
-         with:
-       python-version: 3.9
-     - name: Install AWS CLI and Elastic Beanstalk CLI
-       run: |
-         sudo apt-get update
-         sudo apt-get install -y awscli
-         sudo apt-get install -y python3-pip
-         python -m pip install --upgrade pip
-         pip install awsebcli
-     - name: Deploy to Elastic Beanstalk
-       run: |
-         eb init -r us-east-1 -p docker Hanabi-demo
-         eb deploy Hanabi-demo-env 
-
       Final Output
 
       ![Environment overview - events _ Elastic Beanstalk _ us-east-1 - Google Chrome 11-01-2024 16_56_35](https://github.com/omer-abdulla/Hanabi-CICD/assets/98330268/a389c8af-526c-4907-bf1d-f343f5b5e4c1)
